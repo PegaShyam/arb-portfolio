@@ -1,0 +1,39 @@
+/* Google Fonts - Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root Properties */
+:root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  background-color: black;
+  color: white;
+  scroll-behavior: smooth;
+  /* Scroll Bar */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 191, 255);
+  }
+}
+
+#work,
+#about,
+#experience,
+#testimonials,
+#contact {
+  scroll-margin-top: 80px;
+}
