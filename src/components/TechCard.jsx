@@ -6,14 +6,14 @@ const TechCard = ({ src, content, link }) => {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-auto rounded-lg bg-cover bg-zinc-800/30 backdrop:blur-md flex items-center justify-between p-4 cursor-pointer border"
+      className="w-auto rounded-lg bg-cover bg-zinc-800/30 backdrop:blur-md flex items-center justify-between p-2 md:p-3 xl:p-4 cursor-pointer border"
     >
       <img
         src={src}
         alt={content}
-        className="w-20 h-20 border rounded-lg bg-white object-contain"
+        className="w-10 h-10 md:w-15 md:h-15 xl:w-20 xl:h-20 border rounded-lg bg-white object-contain"
       />
-      <p className="text-3xl font-semibold text-white p-4">{content}</p>
+      <p className="text-lg md:text-2xl lg:text-3xl font-semibold text-white p-1 md:p-2 lg:p-3 xl:p-4">{content}</p>
     </a>
   );
 };

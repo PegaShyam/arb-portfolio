@@ -2,6 +2,7 @@ import photo1 from "../assets/photo1.jpg";
 import photo2 from "../assets/photo2.jpg";
 import photo3 from "../assets/photo3.jpg";
 
+import resume from "../assets/resume.pdf"
 
 import django from "../assets/django.svg";
 import flask from "../assets/flask.svg";
@@ -30,7 +31,7 @@ export const HERO_CONTENT = {
   description:
     "I work in an environment which encourages me to succeed and grow professionally where I can utilize my skills and knowledge appropriately.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/resume.pdf",
+  resumeLink: {resume},
 };
 
 export const PHOTOS = [
@@ -56,55 +57,55 @@ export const SKILL_ITEM = [
     src: `${django}`,
     content: "Django",
     id: 1,
-    link: "https://github.com/AnkithRBelavadi"
+    link:"https://github.com/AnkithRBelavadi",
   },
   {
     src: `${flask}`,
     content: "Flask",
     id: 2,
-    link: "https://github.com/AnkithRBelavadi"
+    link:"https://github.com/AnkithRBelavadi",
   },
   {
     src: `${fastapi}`,
     content: "FastAPI",
     id: 3,
-    link: "https://github.com/AnkithRBelavadi"
+    link:"https://docs.google.com/document/d/1zmMv0J8ggK95nki3k74YOOxJYjpXruywDQry427XunA/edit?tab=t.0#heading=h.ybnllkz4tdir",
   },
   {
     src: `${python}`,
     content: "Python",
     id: 4,
-    link: "https://github.com/AnkithRBelavadi"
+    link: "https://github.com/AnkithRBelavadi",
   },
   {
     src: `${c_programming}`,
     content: "C",
     id: 5,
-    link: "https://github.com/AnkithRBelavadi"
+    link: "https://github.com/AnkithRBelavadi",
   },
   {
     src: `${c_plus_plus}`,
     content: "C++",
     id: 6,
-    link: "https://github.com/AnkithRBelavadi"
+    link: "https://github.com/AnkithRBelavadi",
   },
   {
     src: `${aws}`,
     content: "AWS",
     id: 7,
-    link: "https://github.com/AnkithRBelavadi"
+    link: "https://github.com/AnkithRBelavadi",
   },
   {
     src: `${mysql}`,
     content: "MySQL",
     id: 8,
-    link: "https://github.com/AnkithRBelavadi"
+    link: "https://github.com/AnkithRBelavadi",
   },
   {
     src:`${postgres}`,
     content: "Postgres",
     id: 9,
-    link: "https://github.com/AnkithRBelavadi"
+    link: "https://github.com/AnkithRBelavadi",
   },
   
 ];
